@@ -1,0 +1,8 @@
+:root {
+  --black: rgba(21, 20, 20, 1);
+  --bluish-grey: rgba(37, 44, 54, 1);
+  --grey-border: rgba(144, 146, 151, 1);
+  --grey-text: rgba(125, 134, 151, 1);
+  --orange-accent: rgba(251, 116, 21, 1);
+  --white: rgba(255, 255, 255, 1);
+}

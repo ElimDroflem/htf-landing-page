@@ -1,0 +1,65 @@
+.desktop .header {
+  background-color: transparent;
+  height: 808px;
+  left: 10px;
+  position: absolute;
+  top: 125px;
+  width: 1444px;
+}
+
+.desktop .overlap-group {
+  background-color: var(--bluish-grey);
+  height: 808px;
+  position: relative;
+  width: 1440px;
+}
+
+.desktop .button {
+  all: unset;
+  align-items: center;
+  background-color: var(--orange-accent);
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  left: 167px;
+  position: absolute;
+  top: 564px;
+  width: 120px;
+}
+
+.desktop .header-title {
+  color: var(--white);
+  font-family: "Poppins", Helvetica;
+  font-size: 50px;
+  font-weight: 700;
+  left: 167px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 113px;
+  width: 468px;
+}
+
+.desktop .header-subtext {
+  color: var(--grey-text);
+  font-family: "Roboto", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  left: 167px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 326px;
+  width: 468px;
+}
+
+.desktop .header-image {
+  height: 585px;
+  left: 783px;
+  object-fit: cover;
+  position: absolute;
+  top: 1px;
+  width: 497px;
+}

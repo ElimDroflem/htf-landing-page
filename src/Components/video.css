@@ -1,0 +1,69 @@
+.desktop .video {
+  height: 690px;
+  left: -4px;
+  position: absolute;
+  top: 2363px;
+  width: 1446px;
+}
+
+.desktop .overlap-group-3 {
+  background-color: #252c36;
+  height: 690px;
+  position: relative;
+  width: 1444px;
+}
+
+.desktop .video-title {
+  color: var(--white);
+  font-family: "Poppins", Helvetica;
+  font-size: 50px;
+  font-weight: 700;
+  left: 397px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 17px;
+  width: 653px;
+}
+
+.desktop .video-screen {
+  height: 485px;
+  left: 164px;
+  object-fit: cover;
+  position: absolute;
+  top: 103px;
+  width: 1120px;
+}
+
+.desktop .video-play {
+  height: 59px;
+  left: 285px;
+  position: absolute;
+  top: 609px;
+  width: 49px;
+}
+
+.desktop .video-slider {
+  height: 49px;
+  left: 354px;
+  object-fit: cover;
+  position: absolute;
+  top: 613px;
+  width: 645px;
+}
+
+.desktop .video-fullscreen {
+  height: 59px;
+  left: 1016px;
+  position: absolute;
+  top: 608px;
+  width: 67px;
+}
+
+.desktop .video-sound {
+  height: 53px;
+  left: 1114px;
+  position: absolute;
+  top: 609px;
+  width: 52px;
+}

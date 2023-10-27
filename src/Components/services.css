@@ -1,0 +1,224 @@
+.desktop .services {
+  height: 690px;
+  left: 10px;
+  position: absolute;
+  top: 1682px;
+  width: 1446px;
+}
+
+.desktop .overlap-2 {
+  height: 690px;
+  position: relative;
+  width: 1444px;
+}
+
+.desktop .services-group {
+  background-color: #252c36;
+  height: 690px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1444px;
+}
+
+.desktop .services-growth {
+  align-items: center;
+  background-color: var(--black);
+  border: 3px solid;
+  border-color: var(--grey-border);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  height: 241px;
+  left: 160px;
+  overflow: hidden;
+  padding: 42px 56px;
+  position: absolute;
+  top: 143px;
+  width: 341px;
+}
+
+.desktop .frame-2 {
+  align-items: flex-end;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 11px;
+  position: relative;
+}
+
+.desktop .img-2 {
+  height: 40px;
+  position: relative;
+  width: 40px;
+}
+
+.desktop .text-wrapper-10 {
+  color: var(--orange-accent);
+  font-family: "Roboto", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  height: 41px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: 135px;
+}
+
+.desktop .text-wrapper-11 {
+  color: var(--grey-text);
+  font-family: "Roboto", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  height: 81px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: -11.5px;
+  margin-right: -11.5px;
+  position: relative;
+  text-align: center;
+  width: 252px;
+}
+
+.desktop .eva-flip-fill {
+  height: 7px;
+  margin-bottom: -42px;
+  position: relative;
+  width: 19.01px;
+}
+
+.desktop .services-tailored {
+  align-items: center;
+  background-color: var(--black);
+  border: 3px solid;
+  border-color: var(--grey-border);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 206px;
+  left: 160px;
+  overflow: hidden;
+  padding: 20px 56px;
+  position: absolute;
+  top: 425px;
+  width: 1120px;
+}
+
+.desktop .text-wrapper-12 {
+  color: var(--white);
+  font-family: "Roboto", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  height: 41px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: 299px;
+}
+
+.desktop .text-wrapper-13 {
+  color: var(--grey-text);
+  font-family: "Roboto", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  height: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: -30px;
+  margin-right: -30px;
+  position: relative;
+  text-align: center;
+  width: 1068px;
+}
+
+.desktop .div-wrapper {
+  align-items: center;
+  background-color: var(--orange-accent);
+  border-radius: 8px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: space-around;
+  position: relative;
+  width: 120px;
+}
+
+.desktop .services-time {
+  align-items: center;
+  background-color: var(--black);
+  border: 3px solid;
+  border-color: var(--grey-border);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  height: 241px;
+  left: 549px;
+  overflow: hidden;
+  padding: 42px 56px;
+  position: absolute;
+  top: 143px;
+  width: 341px;
+}
+
+.desktop .frame-3 {
+  align-items: flex-end;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 11px;
+  margin-left: -32px;
+  margin-right: -32px;
+  position: relative;
+  width: 293px;
+}
+
+.desktop .text-wrapper-14 {
+  color: var(--orange-accent);
+  font-family: "Roboto", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  height: 41px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: -3px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: 245px;
+}
+
+.desktop .services-growth-2 {
+  align-items: center;
+  background-color: var(--black);
+  border: 3px solid;
+  border-color: var(--grey-border);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  height: 241px;
+  left: 939px;
+  overflow: hidden;
+  padding: 42px 56px;
+  position: absolute;
+  top: 143px;
+  width: 341px;
+}
+
+.desktop .text-wrapper-15 {
+  color: var(--white);
+  font-family: "Poppins", Helvetica;
+  font-size: 50px;
+  font-weight: 700;
+  left: 501px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 37px;
+  width: 437px;
+}

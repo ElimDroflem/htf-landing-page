@@ -1,0 +1,34 @@
+.desktop .hdao-title {
+  color: var(--white);
+  font-family: "Poppins", Helvetica;
+  font-size: 26px;
+  font-weight: 400;
+  left: 207px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 119px;
+  width: 395px;
+}
+
+.desktop .hdao-text {
+  color: var(--white);
+  font-family: "Poppins", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 207px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 244px;
+  width: 393px;
+}
+
+.desktop .hdao-img {
+  height: 529px;
+  left: 684px;
+  object-fit: cover;
+  position: absolute;
+  top: 80px;
+  width: 593px;
+}
