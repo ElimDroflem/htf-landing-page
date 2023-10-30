@@ -3,13 +3,13 @@
   left: 10px;
   position: absolute;
   top: 1682px;
-  width: 1446px;
+  width: 100%;
 }
 
 .desktop .overlap-2 {
   height: 690px;
   position: relative;
-  width: 1444px;
+  width: 100%;
 }
 
 .desktop .services-group {
@@ -18,7 +18,7 @@
   left: 0;
   position: absolute;
   top: 0;
-  width: 1444px;
+  width: 100%;
 }
 
 .desktop .services-growth {

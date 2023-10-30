@@ -1,3 +1,26 @@
+.desktop .hdao {
+  height: 690px;
+  left: 0;
+  position: absolute;
+  top: 4103px;
+  width: 100%;
+}
+
+.desktop .hdao-about {
+  height: 690px;
+  width: 100%;
+}
+
+.desktop .hdao-container {
+  background-color: var(--black);
+  border-radius: 16px;
+  height: 529px;
+  left: 162px;
+  position: absolute;
+  top: 80px;
+  width: 1115px;
+}
+
 .desktop .hdao-title {
   color: var(--white);
   font-family: "Poppins", Helvetica;

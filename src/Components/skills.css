@@ -3,7 +3,8 @@
   left: -4px;
   position: absolute;
   top: 3053px;
-  width: 1472px;
+  width: 100%;
+  background-color: var(--black);
 }
 
 .desktop .overlap-3 {
@@ -12,7 +13,7 @@
   height: 360px;
   left: 4px;
   position: relative;
-  width: 1440px;
+  width: 100%;
 }
 
 .desktop .skills-title {

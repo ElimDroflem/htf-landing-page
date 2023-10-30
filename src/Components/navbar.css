@@ -4,9 +4,10 @@
   flex-direction: column;
   gap: 10px;
   left: 0;
-  padding: 10px;
+  padding: 0px;
   position: absolute;
   top: 0;
+  width: 100%;
 }
 
 .desktop .nav-bar {
@@ -16,13 +17,14 @@
   flex-direction: column;
   gap: 10px;
   position: relative;
+  width: 100%;
 }
 
 .desktop .rectangle-2 {
   background-color: #252c36;
   height: 115px;
   position: relative;
-  width: 1440px;
+  width: 100%;
 }
 
 .desktop .text-wrapper {
@@ -70,13 +72,18 @@
   font-family: "Roboto", Helvetica;
   font-size: 18px;
   font-weight: 700;
+  border: 2px solid white; /* Add this line */
+  display: flex; /* Add this line */
+  align-items: center; /* Add this line */
+  justify-content: center; /* Add this line */
   height: 53px;
   letter-spacing: 0;
-  line-height: normal;
+  line-height: 49px; /* Adjusted line-height */
   margin-top: -1px;
   position: relative;
   text-align: center;
   width: 120px;
+  border-radius: 0.5rem;
 }
 
 .desktop .text-wrapper-4 {

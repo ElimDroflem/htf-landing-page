@@ -4,14 +4,14 @@
   left: 10px;
   position: absolute;
   top: 125px;
-  width: 1444px;
+  width: 100%;
 }
 
 .desktop .overlap-group {
   background-color: var(--bluish-grey);
   height: 808px;
   position: relative;
-  width: 1440px;
+  width: 100%;
 }
 
 .desktop .button {
