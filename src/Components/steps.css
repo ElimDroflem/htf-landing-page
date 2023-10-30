@@ -1,6 +1,5 @@
 .desktop .steps {
   height: 842px;
-  left: 6px;
   position: absolute;
   top: 841px;
   width: 100%;
@@ -13,7 +12,7 @@
 
 .desktop .overlap-group-2 {
   height: 842px;
-  left: 4px;
+
   position: relative;
   width: 100%;
 }

@@ -1,14 +1,7 @@
 .desktop .services {
   height: 690px;
-  left: 10px;
   position: absolute;
   top: 1682px;
-  width: 100%;
-}
-
-.desktop .overlap-2 {
-  height: 690px;
-  position: relative;
   width: 100%;
 }
 

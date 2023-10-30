@@ -13,17 +13,14 @@ const App = () => {
   return (
     <div className="desktop">
       <div className="div">
-        <div className="rectangle" />
-        <div className="overlap">
-          <Navbar />
-          <Header />
-          <Steps />
-          <Services />
-          <Video />
-          <Skills />
-          <FAQ />
-          <Hdao />
-        </div>
+        <Navbar />
+        <Header />
+        <Steps />
+        <Services />
+        <Video />
+        <Skills />
+        <FAQ />
+        <Hdao />
       </div>
     </div>
   );

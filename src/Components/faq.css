@@ -12,6 +12,7 @@
   position: absolute;
   top: 422px;
   width: 100%;
+  max-width: 1117px;
 }
 
 .desktop .line-2 {
@@ -134,7 +135,7 @@
 }
 
 .desktop .faq-8 {
-  height: 49px;
+  height: 51px;
   left: 160px;
   position: absolute;
   top: 246px;

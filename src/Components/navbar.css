@@ -2,8 +2,6 @@
   align-items: flex-start;
   display: inline-flex;
   flex-direction: column;
-  gap: 10px;
-  left: 0;
   padding: 0px;
   position: absolute;
   top: 0;
@@ -11,20 +9,12 @@
 }
 
 .desktop .nav-bar {
-  align-items: flex-start;
-  display: inline-flex;
-  flex: 0 0 auto;
-  flex-direction: column;
-  gap: 10px;
-  position: relative;
   width: 100%;
 }
 
 .desktop .rectangle-2 {
   background-color: #252c36;
   height: 115px;
-  position: relative;
-  width: 100%;
 }
 
 .desktop .text-wrapper {
