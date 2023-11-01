@@ -3,7 +3,15 @@
   height: 115px;
   background-color: #252c36;
   display: flex;
-  justify-content: space-around;
+  justify-content: center; /* Center the inner container */
+  align-items: center;
+}
+
+.desktop .nav--container {
+  max-width: 1120px;
+  width: 100%; /* Take up as much width as possible, up to the max-width */
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 

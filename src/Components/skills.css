@@ -1,116 +1,59 @@
 .desktop .skills {
-  height: 360px;
-  position: absolute;
-  top: 3047px;
+  height: auto;
   width: 100%;
   background-color: var(--black);
   border-top: 3px solid var(--grey-border);
   border-bottom: 3px solid var(--grey-border);
+  display: flex;
+
+  justify-content: center;
 }
 
-.desktop .skills-title {
+.desktop .skills--container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1120px;
+  align-items: center;
+  justify-content: center;
+}
+
+.desktop .skills--container-group {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1120px;
+  gap: 8rem;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.desktop .skills--title {
   color: var(--white);
   font-family: "Poppins", Helvetica;
   font-size: 48px;
   font-weight: 700;
-  left: 160px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
   text-align: center;
-  top: 19px;
-  width: 1120px;
+  margin-top: 4rem;
 }
 
-.desktop .skills-growth {
+.desktop .skills--group {
   background-color: var(--black);
   border: 3px solid;
   border-color: var(--grey-border);
   border-radius: 16px;
-  height: 178px;
-  left: 160px;
   overflow: hidden;
-  position: absolute;
-  top: 127px;
-  width: 313px;
+  height: 11rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.desktop .vector {
-  height: 31px;
-  left: 68px;
-  position: absolute;
-  top: 31px;
-  width: 176px;
-}
-
-.desktop .text-wrapper-16 {
+.desktop .skills--group > p {
   color: var(--white);
   font-family: "Roboto", Helvetica;
   font-size: 20px;
   font-weight: 400;
-  left: 27px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
   text-align: center;
-  top: 86px;
-  width: 259px;
-}
-
-.desktop .skills-income {
-  background-color: var(--black);
-  border: 3px solid;
-  border-color: var(--grey-border);
-  border-radius: 16px;
-  height: 178px;
-  left: 967px;
-  overflow: hidden;
-  position: absolute;
-  top: 127px;
-  width: 313px;
-}
-
-.desktop .vector-2 {
-  height: 40px;
-  left: 66px;
-  position: absolute;
-  top: 14px;
-  width: 182px;
-}
-
-.desktop .skills-upskill {
-  background-color: var(--black);
-  border: 3px solid;
-  border-color: var(--grey-border);
-  border-radius: 16px;
-  height: 178px;
-  left: 563px;
-  overflow: hidden;
-  position: absolute;
-  top: 127px;
-  width: 313px;
-}
-
-.desktop .frame-4 {
-  align-items: flex-end;
-  display: flex;
-  gap: 11px;
-  left: 66px;
-  position: absolute;
-  top: 21px;
-  width: 181px;
-}
-
-.desktop .text-wrapper-17 {
-  color: var(--orange-accent);
-  font-family: "Roboto", Helvetica;
-  font-size: 40px;
-  font-weight: 700;
-  height: 41px;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: -1px;
-  position: relative;
-  white-space: nowrap;
-  width: 130px;
 }

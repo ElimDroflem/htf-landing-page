@@ -12,16 +12,14 @@ import "./style.css";
 const App = () => {
   return (
     <div className="desktop">
-      <div className="div">
-        <Navbar />
-        <Header />
-        <Steps />
-        <Services />
-        <Video />
-        <Skills />
-        <FAQ />
-        <Hdao />
-      </div>
+      <Navbar />
+      <Header />
+      <Steps />
+      <Services />
+      <Video />
+      <Skills />
+      {/* <FAQ /> */}
+      <Hdao />
     </div>
   );
 };

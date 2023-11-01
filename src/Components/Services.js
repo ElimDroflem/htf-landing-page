@@ -6,68 +6,60 @@ import "./services.css";
 const Services = () => {
   return (
     <div className="services">
-      <div className="services-group">
-        <div className="services-growth">
-          <div className="frame-2">
+      {/* title */}
+      <div className="services--header">Current Services</div>
+      {/* top line of boxes */}
+      <div className="services--top">
+        {/* first box */}
+        <div className="services--group">
+          <div className="services--title">
             <img
               className="img-2"
               alt="Grommet icons grow"
               src="/img/grommet-icons-grow.svg"
             />
-            <div className="text-wrapper-10">Growth</div>
+            <h2>Growth</h2>
           </div>
-          <p className="text-wrapper-11">
+          <p>
             Elevate your web3 project’s presence. From socials to user
             engagement, we’ve got you covered.
           </p>
-          <img
-            className="eva-flip-fill"
-            alt="Eva flip fill"
-            src="/img/evaflip-2fill-0.png"
-          />
         </div>
-        <div className="services-tailored">
-          <div className="frame-2">
-            <div className="text-wrapper-12">Tailored For You</div>
-          </div>
-          <p className="text-wrapper-13">
-            Elevate your web3 project’s presence. From socials to user
-            engagement, we’ve got you covered.
-          </p>
-          <div className="div-wrapper">
-            <div className="text-wrapper-3">Contact Us</div>
-          </div>
-        </div>
-        <div className="services-time">
-          <div className="frame-3">
+        {/* 2nd box */}
+        <div className="services--group">
+          <div className="services--title">
             <img
               className="img-2"
               alt="Ic outline more time"
               src="/img/ic-outline-more-time.svg"
             />
-            <div className="text-wrapper-14">Time- Saving</div>
+            <h2>Time-Saving</h2>
           </div>
-          <p className="text-wrapper-11">
-            Elevate your web3 project’s presence. From socials to user
-            engagement, we’ve got you covered.
+          <p>
+            Outsource admin, data entry, and more. Optimize both business and
+            personal time.
           </p>
         </div>
-        <div className="services-growth-2">
-          <div className="frame-2">
+        {/* 3rd box box */}
+        <div className="services--group">
+          <div className="services--title">
             <img
               className="img-2"
               alt="Icomoon free lab"
               src="/img/icomoon-free-lab.svg"
             />
-            <div className="text-wrapper-10">Growth</div>
+            <h2>Research</h2>
           </div>
-          <p className="text-wrapper-11">
-            Elevate your web3 project’s presence. From socials to user
-            engagement, we’ve got you covered.
-          </p>
+          <p>Dive deep with large-scale data scraping and web3 research.</p>
         </div>
       </div>
-      <div className="text-wrapper-15">Current Services</div>
+
+      {/* 4th box */}
+      <div className="services--tailored">
+        <h2>Tailored For You</h2>
+        <p>Need something unique? Reach out for custom services.</p>
+        <button className="button--main">Contact Us</button>
+      </div>
     </div>
   );
 };

@@ -5,14 +5,16 @@ import "./navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="nav">
-      <div className="nav--title">Human Task Force</div>
-      <div className="nav--links">
-        <a href="/">Home</a>
-        <a href="/">Contact</a>
+    <nav className="nav">
+      <div className="nav--container">
+        <div className="nav--title">Human Task Force</div>
+        <div className="nav--links">
+          <a href="/">Home</a>
+          <a href="/">Contact</a>
+        </div>
+        <button className="button--main">Launch App</button>
       </div>
-      <div className="button--main">Launch App</div>
-    </div>
+    </nav>
   );
 };
 

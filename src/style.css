@@ -8,21 +8,12 @@ html {
   overflow: -moz-scrollbars-none;
 }
 
-.desktop {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  overflow: hidden;
-  height: auto;
-}
-
 .desktop .div {
   overflow: hidden;
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 ::-webkit-scrollbar {

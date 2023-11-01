@@ -1,18 +1,12 @@
-.desktop .video {
+/* .desktop .video {
   height: 690px;
   position: absolute;
   top: 2363px;
   width: 100%;
-}
-
-.desktop .overlap-group-3 {
   background-color: #252c36;
-  height: 690px;
-  position: relative;
-  width: 100%;
 }
 
-.desktop .video-title {
+.desktop .video--title {
   color: var(--white);
   font-family: "Poppins", Helvetica;
   font-size: 50px;
@@ -25,7 +19,7 @@
   width: 653px;
 }
 
-.desktop .video-screen {
+.desktop .video--screen {
   height: 485px;
   left: 164px;
   object-fit: cover;
@@ -34,7 +28,7 @@
   width: 1120px;
 }
 
-.desktop .video-play {
+.desktop .video--play {
   height: 59px;
   left: 285px;
   position: absolute;
@@ -42,7 +36,7 @@
   width: 49px;
 }
 
-.desktop .video-slider {
+.desktop .video--slider {
   height: 49px;
   left: 354px;
   object-fit: cover;
@@ -51,7 +45,7 @@
   width: 645px;
 }
 
-.desktop .video-fullscreen {
+.desktop .video--fullscreen {
   height: 59px;
   left: 1016px;
   position: absolute;
@@ -59,10 +53,72 @@
   width: 67px;
 }
 
-.desktop .video-sound {
+.desktop .video--sound {
   height: 53px;
   left: 1114px;
   position: absolute;
   top: 609px;
+  width: 52px;
+} */
+
+.desktop .video {
+  width: 100%;
+  background-color: #252c36;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.desktop .video--container {
+  max-width: 1120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.desktop .video--title {
+  color: var(--white);
+  font-family: "Poppins", Helvetica;
+  font-size: 50px;
+  font-weight: 700;
+  width: auto;
+  white-space: nowrap;
+  margin-bottom: 2rem;
+}
+
+.desktop .video--screen {
+  height: 485px;
+  object-fit: cover;
+  width: 1120px;
+}
+
+.video--controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1120px;
+  margin: 1rem 0rem;
+}
+
+.desktop .video--play {
+  height: 59px;
+  width: 49px;
+}
+
+.desktop .video--slider {
+  height: 49px;
+  object-fit: cover;
+  width: 645px;
+}
+
+.desktop .video--fullscreen {
+  height: 59px;
+  width: 67px;
+}
+
+.desktop .video--sound {
+  height: 53px;
   width: 52px;
 }

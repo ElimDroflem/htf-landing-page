@@ -1,57 +1,50 @@
 .desktop .hdao {
-  height: 690px;
-  left: 0;
-  position: absolute;
-  top: 4103px;
+  height: auto;
   width: 100%;
+  background-color: var(--bluish-grey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.desktop .hdao-about {
-  height: 690px;
-  width: 100%;
-}
-
-.desktop .hdao-container {
+.desktop .hdao--container {
   background-color: var(--black);
   border-radius: 16px;
-  height: 529px;
-  left: 162px;
-  position: absolute;
-  top: 80px;
-  width: 1115px;
+  height: auto;
+  min-width: 1120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4rem 0;
 }
 
-.desktop .hdao-title {
+.desktop .hdao--container--left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4rem;
+}
+
+.desktop .hdao--title {
   color: var(--white);
   font-family: "Poppins", Helvetica;
   font-size: 26px;
   font-weight: 400;
-  left: 207px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 119px;
   width: 395px;
 }
 
-.desktop .hdao-text {
+.desktop .hdao--text {
   color: var(--white);
   font-family: "Poppins", Helvetica;
   font-size: 18px;
   font-weight: 400;
-  left: 207px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 244px;
   width: 393px;
 }
 
-.desktop .hdao-img {
+.desktop .hdao--img {
   height: 529px;
-  left: 684px;
   object-fit: cover;
-  position: absolute;
-  top: 80px;
   width: 593px;
 }
