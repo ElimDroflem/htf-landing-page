@@ -1,0 +1,32 @@
+.video {
+  width: 100%;
+  background-color: #252c36;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video--container {
+  max-width: 70rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+
+.video--title {
+  color: var(--white);
+  font-family: "Poppins", Helvetica;
+  font-size: 3.125rem;
+  font-weight: 700;
+  width: auto;
+  white-space: nowrap;
+  margin-bottom: 2rem;
+}
+
+.video--screen {
+  height: 30rem;
+  object-fit: cover;
+  width: 70rem;
+}

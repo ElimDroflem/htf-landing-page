@@ -1,0 +1,48 @@
+.hdao {
+  height: auto;
+  width: 100%;
+  background-color: var(--bluish-grey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hdao--container {
+  background-color: var(--black);
+  border-radius: 1rem;
+  height: auto;
+  min-width: 70rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4rem 0;
+}
+
+.hdao--container--left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4rem;
+}
+
+.hdao--title {
+  color: var(--white);
+  font-family: "Poppins", Helvetica;
+  font-size: 1.625rem;
+  font-weight: 700;
+  width: 25rem;
+}
+
+.hdao--text {
+  color: var(--white);
+  font-family: "Poppins", Helvetica;
+  font-size: 1.125rem;
+  font-weight: 400;
+  width: 25rem;
+}
+
+.hdao--img {
+  object-fit: cover;
+}

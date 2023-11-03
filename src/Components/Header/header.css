@@ -1,0 +1,66 @@
+.header {
+  background-color: var(--bluish-grey);
+  min-height: 50rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.header--group,
+.header--group--copy,
+.header--group--img {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.header--group {
+  justify-content: space-between;
+  max-width: 70rem;
+  max-height: 40.625rem;
+}
+
+.header--group--copy {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.header--group--img {
+  justify-content: flex-end;
+}
+
+.header--title,
+.header--subtext {
+  width: 29rem;
+  font-weight: 700;
+}
+
+.header--title {
+  color: var(--white);
+  font-family: "Poppins", Helvetica;
+  font-size: 3.125rem;
+}
+
+.header--subtext {
+  color: var(--grey-text);
+  font-family: "Roboto", Helvetica;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+}
+
+.header .button--main {
+  margin-top: 3rem;
+}
+
+.header--image {
+  height: auto;
+  max-width: 100%;
+  width: 31.25;
+  object-fit: cover;
+}
+
+.header--group--copy,
+.header--group--img {
+  flex-shrink: 1;
+  max-width: 50%;
+}
