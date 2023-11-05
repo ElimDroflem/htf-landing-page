@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/htf-landing-page/static/css/main.29c7b211.css",
+    "main.js": "/htf-landing-page/static/js/main.60312f1a.js",
+    "index.html": "/htf-landing-page/index.html",
+    "main.29c7b211.css.map": "/htf-landing-page/static/css/main.29c7b211.css.map",
+    "main.60312f1a.js.map": "/htf-landing-page/static/js/main.60312f1a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29c7b211.css",
+    "static/js/main.60312f1a.js"
+  ]
+}
