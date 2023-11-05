@@ -1,5 +1,5 @@
 .steps {
-  height: 46rem;
+  height: auto;
   width: 100%;
   background-color: var(--black);
   display: flex;
@@ -16,6 +16,7 @@
   flex-direction: row;
   justify-content: space-between;
   height: 100%;
+  margin: 0 2rem;
 }
 
 .steps--left {
@@ -67,9 +68,11 @@
 .HTF-platform-image {
   height: auto;
   object-fit: cover;
+  width: 50vw;
   max-width: 40.625rem;
   position: relative;
   transform: translate(-10%, -10%);
+  margin-left: 2rem;
 }
 
 .steps--right-title {
@@ -79,7 +82,7 @@
   font-weight: 700;
   height: 1.5rem;
   white-space: nowrap;
-  width: 10.125rem;
+  width: auto;
 }
 
 .steps--right-text {
@@ -113,4 +116,82 @@
 .steps--right-group:hover {
   transform: translateY(-1.2rem);
   transition: transform 0.4s ease;
+}
+
+/* Global Variables for Responsive Design */
+:root {
+  --tablet: 768px;
+  --mobile: 480px; /* Considering smallest size as 320px but adding some buffer */
+}
+
+/* Tablet */
+@media only screen and (max-width: 1023px) {
+  .steps--container {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+
+  .steps--left,
+  .steps--right {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .steps--left-copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .HTF-platform-image {
+    display: none;
+  }
+
+  .steps--right-group {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img {
+    order: -1; /* This will place image before the title */
+    margin-right: 1rem;
+  }
+
+  .line {
+    width: 90%;
+    margin: 2rem auto;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .steps {
+    gap: 2rem;
+    padding: 1rem 0; /* Add some top and bottom padding */
+  }
+
+  .steps--left-copy > h2 {
+    font-size: 1.75rem;
+  }
+
+  .steps--left-copy > p,
+  .steps--right-title,
+  .steps--right-text {
+    width: 90%; /* Slight adjustment for mobile screens */
+  }
+
+  .steps--right-group {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .HTF-platform-image {
+    display: none;
+  }
 }

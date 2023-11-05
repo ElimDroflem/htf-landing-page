@@ -1,6 +1,31 @@
 import React from "react";
 import "../../style.css";
 import "./skills.css";
+import ServiceBox from "../ServicesComponent/SubComponents/ServiceBox";
+
+const skillsData = [
+  {
+    imgSrc: "/img/new-person.svg",
+    altText: "Vector",
+    title: "Growth",
+    description:
+      "We scout intelligent individuals from underserved communities.",
+  },
+  {
+    imgSrc: "/img/money.svg",
+    altText: "Vector",
+    title: "Income",
+    description:
+      "Task completion on our platform generates revenue for Assistants.",
+  },
+  {
+    imgSrc: "/img/degree-hat.png",
+    altText: "Mdi university",
+    title: "Upskill",
+    description:
+      "We furnish the training and platform for self-driven upskilling.",
+  },
+];
 
 const Skills = () => {
   return (
@@ -10,31 +35,16 @@ const Skills = () => {
           Improving Lives Through Human Task Force
         </p>
         <div className="skills--container-group">
-          <div className="skills--group">
-            <img className="skills--img" alt="Vector" src="/img/vector-1.svg" />
-            <p>
-              We scout intelligent individuals from underserved communities.
-            </p>
-          </div>
-          {/* 2nd box */}
-          <div className="skills--group">
-            <img className="skills--img" alt="Vector" src="/img/vector.svg" />
-            <p>
-              Task completion on our platform generates revenue for Assistants.
-            </p>
-          </div>
-          {/* 3rd box */}
-          <div className="skills--group">
-            <img
-              className="skills--img"
-              alt="Mdi university"
-              src="/img/upskill.png"
+          {/* ServiceBox component is in the ServicesComponent -> SubComponent */}
+          {skillsData.map((service, index) => (
+            <ServiceBox
+              key={index}
+              imgSrc={service.imgSrc}
+              altText={service.altText}
+              title={service.title}
+              description={service.description}
             />
-            <p>
-              We furnish the training and platform for self-driven upskilling.
-            </p>
-          </div>
-          {/* 1st box */}
+          ))}
         </div>
       </div>
     </div>
