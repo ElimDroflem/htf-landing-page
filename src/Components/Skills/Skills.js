@@ -28,6 +28,7 @@ const skillsData = [
 ];
 
 const Skills = () => {
+  console.log("Skills component is rendering");
   return (
     <div className="skills">
       <div className="skills--container">

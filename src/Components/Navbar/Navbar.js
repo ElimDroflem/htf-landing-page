@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import "../../style.css";
 import "./navbar.css";
+import { Link } from "react-router-dom";
 
 export const PrimaryButton = ({ onClick, label }) => (
   <button className="button--main" onClick={onClick}>
@@ -35,17 +36,27 @@ const Navbar = () => {
     window.open(launchAppUrl, "_blank");
   };
 
-  const NavLink = ({ href, label }) => (
-    <a
-      href={href}
-      className="nav--link"
-      target="_blank"
-      rel="noopener noreferrer"
-      onClick={() => setShowLinks(false)}
-    >
-      {label}
-    </a>
-  );
+  const NavLink = ({ to, label, isExternal = false }) => {
+    if (isExternal) {
+      return (
+        <a
+          href={to}
+          className="nav--link"
+          onClick={() => setShowLinks(false)}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {label}
+        </a>
+      );
+    } else {
+      return (
+        <Link to={to} className="nav--link" onClick={() => setShowLinks(false)}>
+          {label}
+        </Link>
+      );
+    }
+  };
 
   return (
     <nav className="nav">
@@ -59,16 +70,18 @@ const Navbar = () => {
           <img src="/img/burger-menu.png" alt="Menu" />
         </button>
         <div className="nav--links desktop-links">
-          <NavLink href="https://humandao.org/" label="Home" />
-          <NavLink href="#Contact" label="Contact" />
+          <NavLink to="https://humandao.org/" label="Dao" isExternal={true} />
+          <NavLink to="/htf-landing-page" label="Home" /> {/* Updated path */}
+          <NavLink to="/contact" label="Contact" />
         </div>
         <div
           ref={navContentRef}
           className={`nav-content ${showLinks ? "active" : ""}`}
         >
           <div className="nav--links mobile-links">
-            <NavLink href="https://humandao.org/" label="Home" />
-            <NavLink href="#Contact" label="Contact" />
+            <NavLink to="https://humandao.org/" label="Dao" isExternal={true} />
+            <NavLink to="/htf-landing-page" label="Home" /> {/* Updated path */}
+            <NavLink to="/contact" label="Contact" />
           </div>
         </div>
         <PrimaryButton onClick={handleButtonClick} label="Launch App" />
